@@ -1,0 +1,11 @@
+.main {
+    background-color: #3050FC;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+}

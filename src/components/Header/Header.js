@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
     return (
@@ -9,13 +9,13 @@ function Header() {
         <nav>
             <ul>
             <li>
-                <Link to="/">Home</Link>
+                <NavLink to="/" activeClassName="active">Home</NavLink>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <NavLink to="/about" activeClassName="active">About</NavLink>
             </li>
             <li>
-                <Link to="/game">Game</Link>
+                <NavLink to="/game" activeClassName="active">Game</NavLink>
             </li>
             </ul>
         </nav>

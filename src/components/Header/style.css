@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:gray;
+    background-color:blueviolet;
       
 }
 
@@ -24,7 +24,6 @@
 
 .header nav ul li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,9 +31,13 @@
 }
 
 .header nav ul li a:active {
-    color: black;
+    color: #3050FC;
 }
 
 .header nav ul li a:hover {
-    background-color: blueviolet;
+    background-color: #E0552B;
 }
+
+.active {
+    background-color: #2BE070;
+  }

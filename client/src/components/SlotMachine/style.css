@@ -1,0 +1,136 @@
+
+.slotMachineContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 15px;
+    border-color: green;
+    width: 75%;
+    height: auto;
+}
+
+
+.slotMachine {
+    text-align: center;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 50px;
+}
+
+.reel {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 4px;
+    width: 25%;
+    height:auto;
+    background-color: white;
+    margin: 25px;
+}
+
+#lucky-Machine{
+    display: flex;
+    justify-content: center;
+}
+
+.slotMachineStats{
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.slotMachineStats p {
+    font-size: large;
+    margin: 15px;
+}
+
+.betButtonSize{
+    width: 10%;
+    height: auto;
+}
+
+.spinButtonSize{
+    width: 20%;
+    height: auto;
+}
+
+.button {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.bet{
+    text-align: center;
+    display: block;
+}
+
+#lucky-Machine-Sats{
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.border {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
+
+#payout {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  
+  #payout td, #payout th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #payout tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #payout tr:hover {background-color: #ddd;}
+  
+  #payout th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: green;
+    color: white;
+  }
+
+  #credits{
+      color: royalblue;
+  }
+
+  #pay{
+    color: green;
+  }

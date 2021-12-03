@@ -1,9 +1,5 @@
 .main {
-    background-color: #3050FC;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: cornflowerblue;
 }
 
 h2 {
